@@ -1,0 +1,50 @@
+
+*{
+	margin : 0;
+	padding: 0;
+	font-size: 20px;
+}
+
+.container{
+	margin: 60px auto;
+	width: 440px;
+	height: auto;	
+}
+
+header{
+	background-color: dimgrey;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid black;
+
+}
+
+.body{
+
+	display: flex;
+	height: auto;
+	width: auto;
+}
+div{
+	border: 1px solid black;
+}
+
+form{
+	background-color: rgb(219, 210, 168);
+}
+button{
+	background-color: darkslategrey;
+}
+input{
+	background-color: lightslategrey;
+}
+p{
+	background-color: rgb(219, 210, 168);
+	text-align: center;
+}
+h4{
+	background-color: rgb(219, 210, 168);
+	text-align: right;
+}
