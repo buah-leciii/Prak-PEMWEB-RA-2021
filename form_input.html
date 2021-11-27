@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Data Vaksin</title>
+</head>
+
+<body>
+    <div id="inputdata">
+        <form id="form_vaksin" method="POST">
+            <label class="tulisan">NIK </label>
+            <input type="number" name="nik"><br>
+    
+            <label class="tulisan">Nama</label>
+            <input type="text" name="nama"><br>
+
+            <label class="tulisan">Tempat Tanggal Lahir</label>
+            <input type="text" name="ttl"><br>
+
+            <label class="tulisan">Alamat</label>
+            <input type="text" name="alamat"><br>
+    
+            <label class="tulisan">Pilih Faskes</label>
+            <select name="faskes">
+                <option value="halim">Puskesmas Way Halim</option>
+                <option value="kandis">Puskesmas Way Kandis</option>
+                <option value="airan">RS Airan</option>
+                <option value="advent">RS Advent</option>
+                <option value="imanuel">RS Imanuel</option>
+            </select>        
+        </form>
+        <br>
+        <button id="tambahData" class="btn btn-success"><b>Simpan</b></button>
+    </div>
+    
+</body>
+</html>
